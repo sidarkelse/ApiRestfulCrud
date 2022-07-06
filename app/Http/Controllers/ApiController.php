@@ -26,7 +26,7 @@ class ApiController extends Controller
         $student->save();
 
         return response()->json([
-            "message" => "quer muita pika certeza",
+            "message" => "Registro de estudante criado",
         ], 201);
 
     }
